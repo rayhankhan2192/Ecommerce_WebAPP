@@ -7,6 +7,7 @@ class ProductAdmin(admin.ModelAdmin):
         'price',
         'stock',
         'category',
+        'slug',
         'modified_at',
         'is_available'
     )

@@ -21,5 +21,5 @@ class Product(models.Model):
     
     def get_image(self):
         if self.images:
-            return 'http://127.0.0.1:8000' + self.image.url
+            return 'http://127.0.0.1:8000' + self.images.url
         return ''
