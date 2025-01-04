@@ -8,7 +8,6 @@ class ProductSerializers(serializers.ModelSerializer):
         fields = (
             'id',
             'product_name',
-            'slug',
             'price',
             'images',
             'descriptions',
