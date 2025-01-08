@@ -14,6 +14,7 @@ class ProductSerializers(serializers.ModelSerializer):
             'stock',
             'is_available',
             'category',
+            'subcategory',
             'get_absolute_url',
             'get_image',
             'create_date',
@@ -31,6 +32,7 @@ class ProductGetSerializers(serializers.ModelSerializer):
             'stock',
             'is_available',
             'category',
+            'subcategory',
             'get_absolute_url',
             'get_image',
         )
